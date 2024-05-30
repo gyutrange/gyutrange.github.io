@@ -28,7 +28,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; /* Center the content */
     padding: 20px;
     text-align: center;
 }
@@ -36,16 +36,12 @@ header {
 header img {
     border-radius: 50%;
     width: 200px;
-    align-items: center;
-    justify-content: center;
     height: 200px;
     margin-right: 20px;
 }
 
 header div {
-    text-align: center;
-    align-items: center;
-    justify-contest: center;
+    text-align: center; /* Center the text */
 }
 
 section {
@@ -71,7 +67,7 @@ section h2 {
     color: #FF5733;
 }
 
-.social-links a.baekjoon {
+social-links a.baekjoon {
     color: #1E90FF;
 }
 
