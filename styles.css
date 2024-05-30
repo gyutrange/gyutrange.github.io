@@ -36,12 +36,16 @@ header {
 header img {
     border-radius: 50%;
     width: 200px;
+    align-items: center;
+    justify-content: center;
     height: 200px;
     margin-right: 20px;
 }
 
 header div {
-    text-align: left;
+    text-align: center;
+    align-items: center;
+    justify-contest: center;
 }
 
 section {
