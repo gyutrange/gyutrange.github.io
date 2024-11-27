@@ -1,6 +1,6 @@
 ---
 layout: redirect
-redirect_to: https://wu-kan.cn/2020/02/22/jekyll-theme-WuK/
+redirect_to: https://gyutrange.github.io/
 redirect:
-  to: https://wu-kan.cn/2020/02/22/jekyll-theme-WuK/
+  to: https://gyutrange.github.io/
 ---
