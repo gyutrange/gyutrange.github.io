@@ -7,8 +7,8 @@
 # 해시(#) 뒤에 있는 내용은 주석이며 프로그램에서 무시됩니다.
 
 # 블로그 이름/설명
-name: LOFFER
-description: 포크 가능한 블로그
+name: GiuNash Station
+description: Dev & Sec
 
 # 블로그 URL 입력 (GitHub Pages에서 제공하는 기본 URL을 사용하는 경우 생략 가능)
 url:
@@ -29,13 +29,13 @@ favicon: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/fav
 
 # 메뉴 항목 설정
 navigation:
-  - name: 홈
+  - name: Home
     url: /
-  - name: 소개
+  - name: About Me
     url: /about
-  - name: 아카이브
+  - name: Archive
     url: /archive
-  - name: 태그
+  - name: Tags
     url: /tags
 
 # 한 페이지에 표시할 게시물 수
@@ -63,7 +63,7 @@ footer-links:
   youtube:
 
 # 블로그 하단에 표시되는 텍스트
-footer-text: Copyright (c) 2019 중세에서 온 블로그
+footer-text: Copyright (c) 2024 Giunash Station
 
 #
 # 댓글 설정 (다양한 댓글 시스템 중 하나만 활성화하세요).
