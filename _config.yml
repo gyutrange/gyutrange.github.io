@@ -1,69 +1,100 @@
 # 블로그 기본 정보
-title: "GiuNash Station" # 블로그 제목
-subtitle: "My Personal Space" # 부제목
-description: "Welcome to my personal blog using the WuK theme." # 설명
+title: "Gyutrange's Blog" # 블로그 제목
+description: "Hack'em all ^~^" # 블로그 설명
+baseurl: "" # 루트 URL (서브디렉토리가 없으므로 빈 값으로 둡니다)
 url: "https://gyutrange.github.io" # GitHub Pages URL
-baseurl: "" # 루트 URL (루트에 위치하므로 비워둡니다)
-lang: "en" # 언어 설정
-timezone: "Asia/Seoul" # 시간대
+lang: "en" # 블로그 언어 (기본값 'zh'를 영어로 변경)
+timezone: "Asia/Seoul" # 시간대 설정
 
-# 소셜 링크 설정
-social:
-  - name: GitHub
-    link: https://github.com/gyutrange
-  - name: LinkedIn
-    link: https://linkedin.com/in/gyutrange
-
-# 테마 및 사용자 정의 설정
-remote_theme: "wu-kan/jekyll-theme-WuK" # WuK 테마 적용
-plugins:
-  - jekyll-seo-tag # SEO 최적화
-  - jekyll-feed # RSS 피드 생성
-  - jekyll-sitemap # 사이트맵 생성
-  - jekyll-redirect-from # 리다이렉션 설정
-
-jekyll-theme-WuK:
-  default:
-    body:
-      theme-base: theme-base-07 # 테마 색상 (07~0f 변경 가능)
-      layout-reverse: false # Sidebar 위치 (false: 왼쪽, true: 오른쪽)
-    sidebar:
-      disable: false # Sidebar 활성화 여부
-      avatar: # Sidebar에 표시할 아바타 설정
-        enable: true
-        img: "/assets/images/avatar.png" # 아바타 이미지 경로
-      nav: # Sidebar 메뉴
-        - title: '<i class="fa-solid fa-home fa-fw"></i> Home'
-          href: /
-        - title: '<i class="fa-solid fa-comment fa-fw"></i> Comments'
-          href: /comments/
-        - title: '<i class="fa-solid fa-archive fa-fw"></i> Archive'
-          href: /archive/
-        - title: '<i class="fa-solid fa-tags fa-fw"></i> Tags'
-          href: /tags/
-    page:
-      title:
-        enable: true
-      wordcount:
-        enable: true
-        prepend: '<i class="fa-solid fa-file-word fa-fw"></i>'
-      readtime:
-        enable: true
-        prepend: '<i class="fa-solid fa-clock fa-fw"></i>'
-        unit: mins
-        divided_by: 300 # 평균 읽기 속도: 1분당 300자
-
-# 댓글 설정
-comments:
-  append: |
-    <script
-      repo="gyutrange/comments"
-      src="https://utteranc.es/client.js"
-      issue-term="pathname"
-      theme="github-light"
-      crossorigin="anonymous"
-      async
-    ></script>
+# Sidebar 및 테마 설정
+defaults:
+  - scope:
+      path: "" # 프로젝트의 모든 파일에 적용
+    values:
+      jekyll-theme-WuK:
+        comments:
+          append: |
+            <script
+              repo="gyutrange/comments" # 본인의 GitHub 댓글 저장소로 변경
+              src="https://utteranc.es/client.js"
+              issue-term="url"
+              theme="github-light"
+              crossorigin="anonymous"
+              async="async"
+            ></script>
+        default:
+          body:
+            theme-base: theme-base-07 # 테마 색상
+            layout-reverse: false # Sidebar 위치 (false: 왼쪽, true: 오른쪽)
+            sidebar-overlay: true # Sidebar 고정 여부
+          html_lang: en # 언어 코드 (영어로 변경)
+          sidebar:
+            disable: false # Sidebar 활성화
+            avatar: # 아바타 설정
+              enable: true
+              img: "/assets/images/avatar.png" # 아바타 이미지 경로 (사용자 정의)
+            nav: # 네비게이션 메뉴 설정
+              - title: '<i class="fa-solid fa-home fa-fw"></i> Home'
+                href: /
+              - title: '<i class="fa-solid fa-comment fa-fw"></i> Comments'
+                href: /comments/
+              - title: '<i class="fa-solid fa-archive fa-fw"></i> Archive'
+                href: /archive/
+              - title: '<i class="fa-solid fa-tags fa-fw"></i> Tags'
+                href: /tags/
+              - title: '<i class="fa-solid fa-user fa-fw"></i> About'
+                href: /about/
+            simple_jekyll_search: # Sidebar 검색 설정
+              enable: true
+              full_text_search: false # 전체 텍스트 검색 (성능 이슈로 비활성화)
+              append: |
+                <style>
+                  #sidebar-search-input {
+                    background: none;
+                    border: none;
+                    color: White;
+                    width: 100%;
+                  }
+                  #sidebar-search-results-container {
+                    overflow: hidden hidden;
+                    max-height: 66.6vh;
+                  }
+                  #sidebar-search-results-container:hover {
+                    overflow: auto auto;
+                  }
+                </style>
+                <input
+                  id="sidebar-search-input"
+                  placeholder="Search Blog"
+                />
+                <ol
+                  id="sidebar-search-results-container"
+                ></ol>
+                <script
+                  src='https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.9.1'
+                  async='async'
+                  onload='
+                    SimpleJekyllSearch({
+                      json: "/assets/simple-jekyll-search/search.json",
+                      searchInput: document.getElementById("sidebar-search-input"),
+                      resultsContainer: document.getElementById("sidebar-search-results-container"),
+                      searchResultTemplate: "<li><a href={url}>{title}</a></li>",
+                      limit: 99,
+                      fuzzy: true
+                    })'
+                ></script>
+            jekyll-toc: # Sidebar 목차 설정
+              enable: true
+              prepend: | # 목차가 길 경우 자동 스크롤
+                <style>
+                  #toc {
+                    overflow: hidden hidden;
+                    max-height: 66.6vh;
+                  }
+                  #toc:hover{
+                    overflow: auto auto;
+                  }
+                </style>
 
 # Google Analytics (선택사항)
 google_analytics: ""
