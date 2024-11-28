@@ -1,84 +1,47 @@
-LOFFER是个可以帮助你get off from LOFTER的软件（我知道这个pun很烂）。
+LOFFER: LOFTER에서 벗어나는 데 도움을 주는 소프트웨어
+LOFFER는 GitHub에 배포할 수 있는 Jekyll 블로그로, 코드 작성이나 커맨드 라인 사용 없이 블로그를 배포할 수 있습니다.
 
-这是一个可以发布在GitHub的Jekyll博客，你不需要编写代码或使用命令行即可获得一个部署在GitHub的博客。
+현재 문서와 기본 튜토리얼을 분리하였으며, LOFFER의 기능 및 업데이트 사항을 설명합니다. 코드 지식이 없는 사용자들을 위한 튜토리얼은 여기에서 확인하세요.
 
-现在我将此文档和基础教程分开了，此文档用于说明LOFFER的现有功能和更新情况，**查看为无任何代码基础者写的教程[请点这里](https://fromendworld.github.io/LOFFER/document/)**
+업데이트 내용
+2019-07-25 V0.4.0
+디렉토리 점프 문제 수정 (완벽한 해결은 아니지만 더 이상 문제가 발생하지 않음)
+LaTeX 렌더링 지원 추가, 관련 설명 및 예시 참조
+고정된 게시글 기능 추가: 게시글의 YAML Front Matter에 pinned: true를 추가하면 해당 글이 고정됩니다.
+LOFFER의 테마 색상 변경 방법 소개: LOFFER는 Open Color 색상표를 사용하고 있으며, 이를 통해 색상을 변경할 수 있습니다. 기본 색상은 teal이며, _sass/_variables.scss 파일에서 teal을 원하는 색으로 변경한 후 커밋하면 됩니다.
+2019-07-20 V0.3.0
+새 버전에서 디렉토리 기능 추가: 게시글의 정보란에 toc: true를 추가하면 디렉토리가 표시됩니다.
+jekyll-toc by allejo를 사용하여 디렉토리 생성
+주의: 현재 디렉토리는 데스크톱 버전에서만 표시됩니다.
+2019-06-30 V0.2.0
+스타일 최적화 및 GitHub Issues 기반의 댓글 시스템 Gitalk 추가 (설정 방법 아래 참조)
+LOFFER는 블로그 컨테이너로, 게시글이 블로그의 핵심입니다. 게시글을 저장하는 _post 폴더를 통해 Markdown 형식으로 글을 작성합니다.
+지원되는 기능
+_post 폴더에 Markdown 형식으로 블로그 글 작성
+글의 YAML Front Matter에서 저자, 고정된 글, 디렉토리 추가 기능 사용
+블로그 아카이브 및 태그로 게시글 관리
+소셜 미디어 링크 연결 (_config.yml에서 설정)
+Disqus와 Gitalk 댓글 시스템 지원 (_config.yml에서 설정)
+예시 YAML 포맷
+---
+layout: post
+title: Markdown 문법 소개
+date: 2013-07-16
+Author: Shengbin
+tags: [sample, markdown]
+comments: true
+toc: true
+---
+기여 방법
+이 프로젝트를 다른 사람들에게 소개하여 LOFTER에서 벗어날 수 있도록 도와주세요.
 
-## 更新内容
+문제나 Pull Request는 언제든지 환영합니다.
 
-### 2019-07-25 V0.4.0
+별 하나 주시면 감사하겠습니다!
 
-修订目录跳级会坏掉的问题，不算完美解决，但不会坏掉了。
+img
 
-增加对LaTeX渲染的支持，请见[这篇说明和示例](https://fromendworld.github.io/LOFFER/math-test/)。
-
-增加置顶功能，只要在一个post的YAML Front Matter（就是文章头部的这段信息）中加入` pinned: true `，这篇文章就可以置顶了。
-
-另外介绍一个给LOFFER更换主题颜色的手法。LOFFER用了一个开源的颜色表[Open Color](https://yeun.github.io/open-color/),该色表提供的可选颜色有：red, pink, grape, violet, indigo, blue, cyan, teal, green, lime, yellow。
-
-LOFFER的默认状态是teal，要更换主题颜色，只要打开文件` _sass/_variables.scss `，将文件中所有的teal全部替换成你想要的颜色。例如，查找teal，替换indigo，全部替换，commit，完成！
-
-
-### 2019-07-20 V0.3.0
-
-新版本增加目录功能，在post的信息中心加入` toc: true `，这篇博文就会显示目录了。
-
-这次没有对config的修改，因此应该可以通过[这个方法](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser)，给自己提pull request来更新。
-
-目录基于[jekyll-toc by allejo](https://github.com/allejo/jekyll-toc)制作。
-
-目前我试用发现了一点小问题：如果你的标题级数不按套路变化，它就会搞不懂……
-
-` # 一级标题 `下面必须是` ## 二级标题 `，如果是` ### 三级标题 `它就人工智障了【手动扶额】
-
-注意：目前目录仅在桌面版显示。
-
-
-### 2019-06-30 V0.2.0
-
-新版本进一步优化了一下样式，并且支持了基于GitHub Issues的评论Gitalk（请看下文的配置说明）。
-
-如果你已经fork了LOFFER，想要更新到新版本的话，可以试试[这个方法](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser)，或者你也可以干脆删掉重来，只要保留自己的大部分config设定和所有的post就好。
-
-LOFFER只是容器，你的posts才是博客的核心。
-
-## 支持的功能
-
-使用Markdown文档在_post文件夹中发布博文，现有功能包括显示作者、置顶博文、添加目录。
-
-博文YAML举例：
-
-    ---
-    layout: post
-    title: Markdown语法简介
-    date: 2013-07-16
-    Author: Shengbin
-    tags: [sample, markdown]
-    comments: true
-    toc: true
-    ---
-
-按照标签和日期查看博文归档。请查看/tags 和/archive 页面。
-
-链接博客主的社交媒体。请在_config.yml中填写。
-
-支持Disqus和Gitalk两种评论区。请在_config.yml中设置。
-
-
-## 致谢
-
-* [Jekyll](https://github.com/jekyll/jekyll) - 这是本站存在的根基
-* [Kiko-now](<https://github.com/aweekj/kiko-now>) - 我首先是fork这个主题，然后再其上进行修改汉化，才有了LOFFER
-* [Font Awesome](<https://fontawesome.com/>) - 社交网络图标来自FontAwesome的免费开源内容
-
-
-
-## 帮助这个项目
-
-介绍更多人来使用它，摆脱lofter自由飞翔！
-
-欢迎Issues和Pull Requests。
-
-给我点一个☆吧！
-
-![img](https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/givemefive.png)
+감사의 말씀
+Jekyll - LOFFER의 기본 플랫폼
+Kiko-now - 처음에는 이 테마를 포크하고 수정하여 LOFFER가 탄생했습니다.
+Font Awesome - 소셜 네트워크 아이콘은 FontAwesome의 무료 오픈 소스 콘텐츠입니다.
