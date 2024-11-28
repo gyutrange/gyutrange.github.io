@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Dreamhack] Basic_Crypto WriteUp
+title: "[Dreamhack] Basic_Crypto WriteUp"
 date: 2024-11-28
 author: GiuNash
 tags: [Dreamhack, Crypto]
