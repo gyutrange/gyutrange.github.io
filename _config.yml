@@ -35,13 +35,8 @@ navigation:
     url: /about
   - name: Archive
     url: /archive
-  - name: Tags
+  - name: Category
     url: /tags
-
-# Tag 설정
-collections:
-  tags:
-    output: true
 
 # 한 페이지에 표시할 게시물 수
 paginate: 8
