@@ -24,11 +24,11 @@ pinned: true
 
 장소는 대구 EXCO였는데, 왕복 9시간 걸렸다..
 
-![coshow](https://github.com/user-attachments/assets/2538e137-78f9-480e-9ca2-d8223a9af55b)
+<img width="656" alt="Screenshot 2024-11-29 at 3 36 43 PM" src="https://github.com/user-attachments/assets/c699b843-d73d-4705-9aad-bad4ccac555f">
 
 늘 보던 CTF가 아니라, 실제 자동차를 대상으로 문제 풀이를 진행하는게 신기했다.
 
-![autohack](https://github.com/user-attachments/assets/ec8cca71-0bb5-432d-806e-484903892a29)
+<img width="656" alt="Screenshot 2024-11-29 at 3 36 14 PM" src="https://github.com/user-attachments/assets/e4ed7cab-fe2e-43b2-a21d-0b92f12ff5c4">
 
 여기서 문제를 풀거나, 자동차에 들어가는 CAN 데이터 등을 분석했고
 
@@ -38,12 +38,13 @@ pinned: true
 
 자동차는 Audi A5 모델과 Genesis g80으로 진행했다.
 
-![realCar](https://github.com/user-attachments/assets/fe936b30-2a90-4ab8-97d1-f976f79a9bf9)
+<img width="1129" alt="Screenshot 2024-11-29 at 3 37 11 PM" src="https://github.com/user-attachments/assets/ae9e4a5a-ac98-4f4c-9562-2841d0e0543b">
+
 <div class="caption">뒤에 환기 시스템도 있어서 건물에 연기가 안 퍼진다.</div>
 
 장비는 Kvaser, TOSUN을 사용했고, 차에 직접 연결해서 로그를 수집할 수 있었다.
 
-![Audi](https://github.com/user-attachments/assets/8e2fc544-a037-4c82-8144-df47ac4e2d3e)
+<img width="1163" alt="Screenshot 2024-11-29 at 3 35 43 PM" src="https://github.com/user-attachments/assets/b7faa718-6d68-48d5-ae19-9b4db5c76a24">
 <div class="caption">~~~타고 도망가고 싶었다.~~~</div>
 
 #### 후기
@@ -82,7 +83,8 @@ CAN 패킷 분석, OBD-II, ECU의 이해 등등..
 
 시즌2 개최되면 한 번 더 나가야겠다.
 
-![award](https://github.com/user-attachments/assets/5f1cd526-58aa-47b3-b025-7c565b0f415d)
+<img width="1129" alt="Screenshot 2024-11-29 at 3 37 35 PM" src="https://github.com/user-attachments/assets/b41dee9b-cdc7-4618-8458-ad661d04815a">
+
 
 
 
