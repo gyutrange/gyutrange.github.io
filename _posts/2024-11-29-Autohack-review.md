@@ -24,11 +24,11 @@ pinned: true
 
 장소는 대구 EXCO였는데, 왕복 9시간 걸렸다..
 
-<img src="{{ site.baseurl }}/images/2024-11-29/coshow.png">
+![coshow](https://github.com/user-attachments/assets/2538e137-78f9-480e-9ca2-d8223a9af55b)
 
 늘 보던 CTF가 아니라, 실제 자동차를 대상으로 문제 풀이를 진행하는게 신기했다.
 
-<img src="{{ site.baseurl }}/images/2024-11-29/autohack.png">
+![autohack](https://github.com/user-attachments/assets/ec8cca71-0bb5-432d-806e-484903892a29)
 
 여기서 문제를 풀거나, 자동차에 들어가는 CAN 데이터 등을 분석했고
 
@@ -38,12 +38,12 @@ pinned: true
 
 자동차는 Audi A5 모델과 Genesis g80으로 진행했다.
 
-<img src="{{ site.baseurl }}/images/2024-11-29/realCar.png">
+![realCar](https://github.com/user-attachments/assets/fe936b30-2a90-4ab8-97d1-f976f79a9bf9)
 <div class="caption">뒤에 환기 시스템도 있어서 건물에 연기가 안 퍼진다.</div>
 
 장비는 Kvaser, TOSUN을 사용했고, 차에 직접 연결해서 로그를 수집할 수 있었다.
 
-<img src="{{ site.baseurl }}/images/2024-11-29/Audi.png">
+![Audi](https://github.com/user-attachments/assets/8e2fc544-a037-4c82-8144-df47ac4e2d3e)
 <div class="caption">~~~타고 도망가고 싶었다.~~~</div>
 
 ##### 후기
@@ -60,7 +60,7 @@ CAN 패킷 분석, OBD-II, ECU의 이해 등등..
 
 결국 시동은 아무도 못 걸고 끝났지만..
 
-<img src="{{ site.baseurl }}/images/2024-11-29/can.png">
+![can](https://github.com/user-attachments/assets/5a1386d6-bb80-42d6-8605-8ef27f98996d)
 
 힘들었지만 너무 재밌었다.
 
@@ -82,8 +82,7 @@ CAN 패킷 분석, OBD-II, ECU의 이해 등등..
 
 시즌2 개최되면 한 번 더 나가야겠다.
 
-<img src="{{ site.baseurl }}/images/2024-11-29/award.png">
-
+![award](https://github.com/user-attachments/assets/5f1cd526-58aa-47b3-b025-7c565b0f415d)
 
 
 
