@@ -39,12 +39,12 @@ pinned: true
 자동차는 Audi A5 모델과 Genesis g80으로 진행했다.
 
 <img src="{{ site.baseurl }}/images/2024-11-29/realCar.png">
-<div class="caption">뒤에 환기 시스템도 있어서 건물에 연기가 안 퍼진다.</div>
+<div class="caption">뒤에 환기 시스템도 있어서 건물에 연기가 안 퍼진다.</div>
 
 장비는 Kvaser, TOSUN을 사용했고, 차에 직접 연결해서 로그를 수집할 수 있었다.
 
 <img src="{{ site.baseurl }}/images/2024-11-29/Audi.png">
-<div class="caption">~~~타고 도망가고 싶었다.~~~</div>
+<div class="caption">~~~타고 도망가고 싶었다.~~~</div>
 
 ##### 후기
 
