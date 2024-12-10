@@ -79,6 +79,7 @@ I am a student and engineer interested in vulnerability analysis and information
 ---
 
 ## Awards
+- Autohack2024 COSS사업단장상 수상 (2024.11)
 - BISC 2024 장려상 수상 (2024.11)
 - GCHD 2024 2nd 수상 (2024.11)
 - 윤리적해커양성 5기 최우수 교육생 (2024.8)
