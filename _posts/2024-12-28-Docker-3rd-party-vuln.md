@@ -68,21 +68,27 @@ The following C++ code demonstrates the issue:
         cout << new_str << endl;
 ```
 
-Steps to Reproduce:
+### Steps to Reproduce:
 Launch a Goorm IDE or Replit workspace.
+
 Compile and execute the above C++ code.
+
 Observe that environment variables, including sensitive ones, are exposed.
-✅ Expected Result:
+
+
+### ✅ Expected Result:
 The execution environment should securely isolate environment variables from user code.
 
-❌ Observed Result:
+### ❌ Observed Result:
 Sensitive environment variables are leaked. Example output:
-
+```
 PATH=/usr/bin:/bin:/usr/sbin:/sbin
 HOME=/root
 API_KEY=my-sensitive-api-key
+```
 
-🛠️ Mitigation
+
+### 🛠️ Mitigation
 To address this issue, the following mitigations are recommended:
 
 Environment Variable Masking:
@@ -97,24 +103,31 @@ Implement validation to prevent malicious or unintended behaviors in user-submit
 Sandboxing Tools:
 
 Utilize runtime security tools like seccomp, AppArmor, or SELinux to restrict system calls.
-🗓️ Disclosure Timeline
-2024-12-20: Vulnerability discovered and tested on Goorm IDE and Replit.
-2024-12-27: Write-up published. Awaiting responses.
 
-📸 Screenshots
+***
+
+### 🗓️ Disclosure Timeline
+
+- 2024-12-20: Vulnerability discovered and tested on Goorm IDE and Replit.
+
+- 2024-12-27: Write-up published. Awaiting responses.
+
+
+### 📸 Screenshots
+
 Here is an example of the leaked environment variables in one of the affected platforms(goormIDE, REPLIT):
 
 ![image](https://github.com/user-attachments/assets/6ca606ea-1ab8-49ce-aefb-8169d77113e0)
 ![image](https://github.com/user-attachments/assets/d48a23d5-71a7-41d3-8fd5-f0dc1309480d)
 
 
-✍️ Author
+### ✍️ Author
 [JinGyuJeong / GiuNash]
 Independent Security Researcher
 
 GitHub: [github.io/gyutrange](https://github.com/gyutrange/)
 
-🔗 References
+### 🔗 References
 C++ Standard Input Documentation
 Docker Container Isolation Best Practices
 Responsible Disclosure Policy
