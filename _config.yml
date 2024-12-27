@@ -20,7 +20,7 @@ baseurl: /
 #
 # 아래의 설정은 선택 사항입니다.
 #
-
+future: true
 # 블로그 로고 이미지 URL. 300px × 300px 이하 크기를 권장합니다.
 avatar: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/logo.png
 
