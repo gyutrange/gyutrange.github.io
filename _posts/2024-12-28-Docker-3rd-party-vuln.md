@@ -125,7 +125,7 @@ Here is an example of the leaked environment variables in one of the affected pl
 [JinGyuJeong / GiuNash]
 Independent Security Researcher
 
-GitHub: [github.io/gyutrange](https://github.com/gyutrange/)
+GitHub: [Giunash Station](https://github.com/gyutrange/)
 
 ### 🔗 References
 C++ Standard Input Documentation
