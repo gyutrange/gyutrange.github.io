@@ -58,18 +58,19 @@ The following C++ code demonstrates the issue:
 ```
 
 
-✅ Expected Result:
-The code should only process user-provided input, but instead:
+### ✅ Expected Result:
+- The code should only process user-provided input, but instead:
 
 
-❌ Observed Result:
-The output includes environment variables such as:
-
+### ❌ Observed Result:
+- The output includes environment variables such as:
+```
 PATH=/usr/bin:/bin:/usr/sbin:/sbin
 HOME=/root
+```
 
+### 🛠️ Mitigation
 
-🛠️ Mitigation
 To prevent such vulnerabilities, the following steps are recommended:
 
 Isolate user sessions: Use containerization or virtualization to ensure that each user's environment is isolated.
@@ -80,20 +81,21 @@ Validate user input: Implement stricter input validation for user-submitted code
 
 Use Compiler options: Undefined Behavior Sanitizer.. etc.
 
+***
 
-🗓️ Disclosure Timeline
-2024-12-20: Vulnerability discovered.
+### 🗓️ Disclosure Timeline
+- 2024-12-20: Vulnerability discovered.
 
-2024-12-27: Still Researching on other targets
+- 2024-12-27: Still Researching on other targets
 
 📸 Screenshots
 Here is an example output observed in an affected platform:
 ![image](https://github.com/user-attachments/assets/700691a8-6d08-4163-bb8b-0ccb89bb0eb0)
 
 #### Comments
-This bug is applied for many platforms that support c++ compile & run.
+- This bug is applied for many platforms that support c++ compile & run.
 
-Research on other platforms and targets using c++ is still ongoing.
+- Research on other platforms and targets using c++ is still ongoing.
 
 ✍️ Author
 [JinGyuJeong / GiuNash]
