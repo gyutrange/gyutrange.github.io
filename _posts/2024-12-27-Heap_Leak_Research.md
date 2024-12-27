@@ -16,8 +16,6 @@ pinned: true
 }
 </style>
 
-# Vulnerability in Online IDEs: Environment Variable Leakage
-
 ## 🛡️ Summary
 A vulnerability was discovered in multiple online IDE platforms, where environment variables can be accessed and leaked during the execution of user-submitted C++ code. This occurs due to insufficient isolation of execution environments, allowing sensitive data such as API keys, credentials, and configuration variables to be exposed.
 
