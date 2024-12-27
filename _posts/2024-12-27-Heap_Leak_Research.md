@@ -92,19 +92,19 @@ Use Compiler options: Undefined Behavior Sanitizer.. etc.
 Here is an example output observed in an affected platform:
 ![image](https://github.com/user-attachments/assets/700691a8-6d08-4163-bb8b-0ccb89bb0eb0)
 
-#### Comments
+### Comments
 - This bug is applied for many platforms that support c++ compile & run.
 
 - Research on other platforms and targets using c++ is still ongoing.
 
-✍️ Author
+### ✍️ Author
 [JinGyuJeong / GiuNash]
 
 Independent Security Researcher
 
-GitHub: [Your GitHub Profile](https://github.com/gyutrange)
+GitHub: [Giunash Station](https://github.com/gyutrange)
 
-🔗 References
+### 🔗 References
 C++ Standard Input Documentation
 
 Responsible Disclosure Policy
