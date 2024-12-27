@@ -111,6 +111,7 @@ Utilize runtime security tools like seccomp, AppArmor, or SELinux to restrict sy
 Here is an example of the leaked environment variables in one of the affected platforms(goormIDE, REPLIT):
 
 ![image](https://github.com/user-attachments/assets/6ca606ea-1ab8-49ce-aefb-8169d77113e0)
+
 ![image](https://github.com/user-attachments/assets/d48a23d5-71a7-41d3-8fd5-f0dc1309480d)
 
 
