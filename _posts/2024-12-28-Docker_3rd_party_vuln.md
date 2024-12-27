@@ -11,15 +11,15 @@ published: true
 ---
 
 ## 🛡️ Summary
-A vulnerability has been discovered in **Goorm IDE** and **Replit**, two popular online IDE platforms. This vulnerability allows user-submitted C++ code to access and enumerate sensitive environment variables due to insufficient isolation of execution environments. This flaw could lead to the leakage of critical information, such as API keys, credentials, and system configuration variables.
+A vulnerability has been discovered in **IDE A** and **IDE B**, two popular online IDE platforms. This vulnerability allows user-submitted C++ code to access and enumerate sensitive environment variables due to insufficient isolation of execution environments. This flaw could lead to the leakage of critical information, such as API keys, credentials, and system configuration variables.
 
 ---
 
 ## 🎯 Affected Platforms
 This vulnerability impacts the following platforms:
-1. **Goorm IDE**  
+1. **IDE A**  
    - Affected Component: Docker-based execution environments.
-2. **Replit**  
+2. **IDE B**  
    - Affected Component: Shared containerized environments in collaborative workspaces.
 
 These platforms are designed to provide isolated environments for user-submitted code execution but fail to secure environment variables effectively.
@@ -63,7 +63,7 @@ The following C++ code demonstrates the issue:
 ```
 
 ### Steps to Reproduce:
-Launch a Goorm IDE or Replit workspace.
+Launch a IDE A or IDE B workspace.
 
 Compile and execute the above C++ code.
 
