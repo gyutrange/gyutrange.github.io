@@ -8,13 +8,6 @@ comments: true
 toc: true
 pinned: true
 ---
-<style>
-.caption {
-    text-align: center;
-    font-style: italic;
-    color: gray;
-}
-</style>
 
 ## 🛡️ Summary
 A vulnerability has been discovered in **Goorm IDE** and **Replit**, two popular online IDE platforms. This vulnerability allows user-submitted C++ code to access and enumerate sensitive environment variables due to insufficient isolation of execution environments. This flaw could lead to the leakage of critical information, such as API keys, credentials, and system configuration variables.
