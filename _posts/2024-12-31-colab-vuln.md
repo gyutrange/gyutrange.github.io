@@ -86,17 +86,6 @@ The following steps demonstrate how the vulnerability can be exploited:
 
 ---
 
-#### 5. **Hackathons or Competitions**:
-- **Scenario**:  
-  During a coding competition or hackathon, participants share Colab notebooks to collaborate on projects.  
-  - An attacker injects a malicious script into a shared notebook, disguised as a helper script for evaluating the project output.
-  - The team lead executes the script, exposing their credentials tied to shared cloud accounts.
-
-- **Impact**:  
-  Shared resources like cloud instances or project files are compromised, causing disruptions or financial losses.
-
----
-
 ### 🔍 Key Takeaways
 These scenarios highlight the potential risks in environments where trust is implicitly granted to shared Colab notebooks. Attackers can exploit collaborative workflows and users' reliance on the "Run all" functionality to exfiltrate sensitive information, making it crucial to enhance sandboxing and user awareness.
 
