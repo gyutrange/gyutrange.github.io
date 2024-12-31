@@ -11,7 +11,7 @@ published: true
 ---
 
 ## 🛡️ Summary
-A vulnerability in **Google Colab** allows attackers to exploit shared notebook environments to leak sensitive environment variables. By embedding malicious PoC code disguised as legitimate preprocessing or initialization tasks, attackers can expose environment variables such as API keys, authentication tokens, and system configurations. This issue arises due to insufficient isolation between user code and the underlying execution environment, combined with the "Run all" functionality in shared notebooks.
+A vulnerability in **Google Colab**. attackers to exploit shared notebook environments to leak sensitive environment variables. By embedding malicious PoC code disguised as legitimate preprocessing or initialization tasks, attackers can expose environment variables such as API keys, authentication tokens, and system configurations. This issue arises due to insufficient isolation between user code and the underlying execution environment, combined with the "Run all" functionality in shared notebooks.
 
 ---
 
