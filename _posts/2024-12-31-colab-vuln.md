@@ -210,6 +210,7 @@ To address this vulnerability, the following mitigations are recommended:
 - **2024-12-29**: PoC and write-up completed. Awaiting google issuetracker response.
 - **2024-12-30**: Vulnerability forwarded to the Google Cloud VRP team for further review.
 - **2024-12-31**: Research is posted on my Blog.
+
 ---
 
 ## 📸 Screenshots
