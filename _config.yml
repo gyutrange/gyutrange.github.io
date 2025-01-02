@@ -70,7 +70,7 @@ footer-text: Copyright (c) 2024 Giunash Station
 #
 
 # Disqus 댓글 설정. shortname을 입력하세요. Disqus 웹사이트에서 shortname을 설정해야 합니다.
-disqus: loffer # shortname
+disqus: gyutrange-github-io # shortname
 
 # Gitalk 댓글 설정. 관련 정보를 입력하세요.
 gitalk:
