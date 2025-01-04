@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "WhiteHatSchool 1st Review"
+title: "WhiteHatSchool 1기 TOP20 수료 후기"
 date: 2025-01-05
 author: GiuNash
 tags: [Education]
