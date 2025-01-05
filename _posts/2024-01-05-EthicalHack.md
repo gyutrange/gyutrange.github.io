@@ -17,8 +17,9 @@ pinned: true
 </style>
 
 ### 윤리적해커양성 5기
+	
+[윤리적해커양성 1기 뉴스]([http://www.google.co.kr](https://www.chosun.com/national/national_general/2021/03/22/DU2AWPWIFFCZXJ7BZCUCSWDG34/)).
 
-https://www.chosun.com/national/national_general/2021/03/22/DU2AWPWIFFCZXJ7BZCUCSWDG34/
 
 윤리적해커양성 5기를 수료했다.
 
