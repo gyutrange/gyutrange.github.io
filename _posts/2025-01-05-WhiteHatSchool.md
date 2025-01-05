@@ -76,8 +76,8 @@ pinned: true
 
 마지막에는 CTF도 진행했었는데, 타 CTF처럼 FLAG만 제출하는 것이 아닌 다양한 문제가 나와줬던 것도 도움이 되었다.
 
-![화햇우수](https://github.com/user-attachments/assets/47912328-ead0-40ac-860f-3131559e0af1)
-<div class="caption">~~~상도 좋은데 TOP20하면 돈도 준다. 이왕 하는거 TOP20을 노려보자~~~</div>
+<img width="619" alt="Screenshot 2025-01-05 at 3 31 44 PM" src="https://github.com/user-attachments/assets/909c7254-03bc-4135-8c83-89fb58d189a7" />
+<div class="caption">상도 좋은데 TOP20하면 돈도 준다. 이왕 하는거 TOP20을 노려보자</div>
 
 #### 이제부터는
 
