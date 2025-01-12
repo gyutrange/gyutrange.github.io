@@ -120,10 +120,13 @@ if __name__ == '__main__':
 
 ## 2. 문제풀이
 
-1. **SQL Injection 가능성 확인**  
+**SQL Injection 가능성 확인**
+
    소스 코드를 분석한 결과, 로그인 로직에서 실행되는 SQL 쿼리는 다음과 같았다:
+   
    ```sql
    SELECT uid FROM users WHERE uid='{uid}' and upw='{upw}' and level={level};
+   ```
    
 여기서 level 필드는 숫자형으로 처리되어 따옴표로 감싸지지 않으므로 SQL Injection 공격에 적합했다.
 
@@ -133,7 +136,7 @@ if __name__ == '__main__':
 
 select 우회: UNION VALUES 구문 사용.
 
-admin 우회: char(0x61)||char(0x64)||char(0x6d)||char(0x69)||char(0x6e)으로 문자열 생성.
+admin 우회: char()으로 문자열 생성
 
 ### Payload
 
