@@ -3,7 +3,7 @@ layout: post
 title: "[Dreamhack] batch_checker WriteUp"
 date: 2025-01-15
 author: GiuNash
-tags: [Dreamhack, Reverse]
+tags: [Dreamhack, Reversing]
 comments: true
 toc: true
 pinned: true
