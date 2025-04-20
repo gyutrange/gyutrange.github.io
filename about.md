@@ -23,8 +23,7 @@ permalink: /about/
 </div>
 
 **Whitehat Security**  
-Kangwon National University (Student President, Dept. of Cybersecurity) 
-
+Kangwon National University (Student President, Dept. of Cybersecurity)
 **Email:** [wlsrbwjd643@naver.com](mailto:wlsrbwjd643@naver.com)
 
 ---
