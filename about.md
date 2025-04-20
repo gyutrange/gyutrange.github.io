@@ -64,9 +64,9 @@ I am a student and engineer interested in vulnerability analysis and information
 - **해외 IT기업(NSHC) 기술 연수** - COSS (2025.1)
 - **화이트햇스쿨 1기** - KITRI (2023.8 ~ 2024.3)
 - **윤리적해커양성 5기** - 국가정보원 및 사이버안보훈련센터 (2024.2 ~ 2024.8)
-- **스피어피싱 대학생 심화과정** - KISA (2023.8 ~ 2023.8)
-- **시큐어코딩 민간SW개발보안 대학생 과정** - KISEC (2023.8 ~ 2023.8)
-- **가명정보처리 대학생 과정** - KISA (2023.11 ~ 2023.11)
+- **스피어피싱 대학생 심화과정** - KISA (2023.8)
+- **시큐어코딩 민간SW개발보안 대학생 과정** - KISEC (2023.8)
+- **가명정보처리 대학생 과정** - KISA (2023.11)
 - **현장에서 필요한 Cloud Security** - QueryPie (2024.8)
     " | markdownify }}
   </div>
@@ -99,7 +99,7 @@ I am a student and engineer interested in vulnerability analysis and information
 - **화이트햇스쿨 1기 TOP 20** (2024.2)
 - **가명정보 처리과정 우수학생** (2023.11)
 - **KNU 2023년 SW 창업역량 강화 및 창업지원 프로그램 동상** (2023.7)
-- **국가 이공계 우수 장학생** (2022.3 ~ 2026)
+- **국가 이공계 우수 장학생** (2022.3 ~ 2026.2)
 - **KT 강원고객본부 정보통신분야 우수학생** (2016.2)
 
 ### Papers
