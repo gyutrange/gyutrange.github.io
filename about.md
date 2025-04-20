@@ -18,8 +18,8 @@ permalink: /about/
 </style>
 
 <div style="display: flex; align-items: center;">
-    <h1 style="margin-right: 1rem;">JinGyujeong</h1>
-    <img src="{{ site.baseurl }}/images/IMG_0332.JPG" alt="Profile Picture" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;"/>
+  <h1 style="margin-right: 1rem;">JinGyujeong</h1>
+  <img src="{{ site.baseurl }}/images/IMG_0332.JPG" alt="Profile Picture" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;" />
 </div>
 
 **Whitehat Security Engineer**  
@@ -65,9 +65,8 @@ I am a student and engineer interested in vulnerability analysis and information
 ---
 
 <div class="two-column">
-
-<div class="column">
-
+  <div class="column">
+    {{ "
 ## CTF Experience
 - 2017 DIMI CTF
 - 2020 CCE CTF
@@ -88,11 +87,11 @@ I am a student and engineer interested in vulnerability analysis and information
 - Finding Vulnerability
 - Cloud Engineering
 - Forensics
+    " | markdownify }}
+  </div>
 
-</div>
-
-<div class="column">
-
+  <div class="column">
+    {{ "
 ## Awards
 - Autohack2024 COSS사업단장상 수상 (2024.11)
 - BISC 2024 장려상 수상 (2024.11)
@@ -118,7 +117,6 @@ I am a student and engineer interested in vulnerability analysis and information
 ## Toy Projects
 - Transformer를 이용한 개인용 ChatGPT개발
 - DBA(Dynamic Binary Analysis) 기술 관련 QEMU 성능향상 연구
-
-</div>
-
+    " | markdownify }}
+  </div>
 </div>
