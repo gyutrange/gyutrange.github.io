@@ -23,7 +23,7 @@ permalink: /about/
 </div>
 
 **Whitehat Security**  
-Kangwon National University  
+Kangwon National University (Student President, Dept. of Cybersecurity) 
 **Email:** [wlsrbwjd643@naver.com](mailto:wlsrbwjd643@naver.com)
 
 ---
@@ -55,7 +55,7 @@ Kangwon National University
 I am a student and engineer interested in vulnerability analysis and information security consulting. I am passionate about discovering new vulnerabilities and preventing their exploitation. Through these activities, I am dedicated to developing new security policies. As an engineer committed to finding vulnerabilities and defending against attacks, I have a keen interest in various attack and defense techniques, as well as secure coding, forensics, and AI-driven exploit automation. My goal is to become a leader in cybersecurity in Korea, creating and leading robust security policies.
 
 ---
-## Activity
+## Experiences
 <div class="two-column">
   <div class="column">
     {{ "
@@ -79,6 +79,11 @@ I am a student and engineer interested in vulnerability analysis and information
 - **CVE-2025-31118** - NamelessMC (2025.4)
 - **Public Institution** - (2024.5)
 - **Bug report** - GoormIDE (2023.11)
+
+### Engagements
+- **HSpace** - (2025.2 ~)
+- **KNUS** - (2024.9 ~)
+- **사이음(어르신 디지털 보안 교육 봉사 프로그램)** - (2025.4 ~)
     " | markdownify }}
   </div>
 </div>
@@ -107,11 +112,12 @@ I am a student and engineer interested in vulnerability analysis and information
   <div class="column">
     {{ "
 ### CTFs
-- Autohack2024 COSS사업단장상 (2024.11)
-- BISC 2024 장려상 (2024.11)
-- GCHD 2024 2nd (2024.11)
-- KISA 스피어피싱 대응 CTF 동상 (2023.8)
-- KNU 미니 모의해킹 대회 4th (2023.8)
+- **GamjaHack 2025 운영** - (2025.2)
+- **Autohack2024 COSS사업단장상** - (2024.11)
+- **BISC 2024 장려상** - (2024.11)
+- **GCHD 2024 2nd** - (2024.11)
+- **KISA 스피어피싱 대응 CTF 동상** - (2023.8)
+- **KNU 미니 모의해킹 대회 4th** - (2023.8)
 
 ### Patent
 - **보이스피싱 방지를 위해 발신자 및 수신자 간 검증 절차를 수행하는 통화 시스템의 동작 방법** - 출원완료 (2024.12)
