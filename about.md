@@ -28,13 +28,27 @@ Kangwon National University
 
 ---
 
+<div class="two-column">
+  <div class="column">
+    {{ "
 ## Social Profile
 - [Instagram](https://www.instagram.com/q_gyu_p/)
 - [LinkedIn](https://www.linkedin.com/feed/)
 - [DreamHack](https://dreamhack.io/users/8785)
 - [Baekjoon](https://www.acmicpc.net/user/wlsrbwjd643)
 - [Tistory](https://walk-cat-dev.tistory.com/)
-
+    " | markdownify }}
+  </div>
+  <div class="column">
+    {{ "
+## Interests
+- Vulnerability Research
+- CTFs
+- Forensics
+- Audio Analysis
+    " | markdownify }}
+  </div>
+</div>
 ---
 
 ## About Me
@@ -46,12 +60,11 @@ I am a student and engineer interested in vulnerability analysis and information
   <div class="column">
     {{ "
 
-### Education
+### Educations
 - **화이트햇스쿨 1기** - KITRI (2023.8 ~ 2024.3)
   - 차세대 보안리더 양성 교육 프로그램 - 화이트햇스쿨 1기 TOP20 수료
   - NLP를 기반으로한 익스플로잇 코드 생성 자동화 프로젝트
 - **윤리적해커양성 5기** - 국가정보원 및 사이버안보훈련센터 (2024.2 ~ 2024.8)
-- **공공기관 취약점 분석** - 관계기관 (2024.5)
 - **스피어피싱 대학생 심화과정** - KISA (2023.8 ~ 2023.8)
 - **시큐어코딩 민간SW개발보안 대학생 과정** - KISEC (2023.8 ~ 2023.8)
 - **가명정보처리 대학생 과정** - KISA (2023.11 ~ 2023.11)
@@ -61,22 +74,15 @@ I am a student and engineer interested in vulnerability analysis and information
   <div class="column">
     {{ "
 
-### BugHunt
-- **Bug report** - GoormIDE (2023.11)
+### BugHunts
 - **CVE-2025-30158** - NamelessMC (2025.04)
 - **CVE-2025-30357** - NamelessMC (2025.04)
 - **CVE-2025-31118** - NamelessMC (2025.04)
-
+- **Public Institution** - (2024.5)
+- **Bug report** - GoormIDE (2023.11)
     " | markdownify }}
   </div>
 </div>
-    
----
-## Interests
-- Vulnerability Research
-- CTFs
-- Forensics
-- Audio Analysis
 
 ---
 <div class="two-column">
