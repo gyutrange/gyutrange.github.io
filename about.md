@@ -4,6 +4,19 @@ title: About me
 permalink: /about/
 ---
 
+<style>
+  .two-column {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .column {
+    flex: 1 1 45%;
+    min-width: 300px;
+  }
+</style>
+
 <div style="display: flex; align-items: center;">
     <h1 style="margin-right: 1rem;">JinGyujeong</h1>
     <img src="{{ site.baseurl }}/images/IMG_0332.JPG" alt="Profile Picture" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;"/>
@@ -51,6 +64,10 @@ I am a student and engineer interested in vulnerability analysis and information
 
 ---
 
+<div class="two-column">
+
+<div class="column">
+
 ## CTF Experience
 - 2017 DIMI CTF
 - 2020 CCE CTF
@@ -62,13 +79,9 @@ I am a student and engineer interested in vulnerability analysis and information
 - 2024 GCHD CTF
 - 2024 BISC CTF
 
----
-
 ## Coding Education Experience
 - **2020 Online Coding Party Season 1** - 과학기술정보통신부 (2020.7 ~ 2020.7)
 - **강원대학교 2022 여름방학 코딩테스트 대비 캠프** - Code Tree (2022.7 ~ 2022.7)
-
----
 
 ## Interests
 - Red Team Security
@@ -76,7 +89,9 @@ I am a student and engineer interested in vulnerability analysis and information
 - Cloud Engineering
 - Forensics
 
----
+</div>
+
+<div class="column">
 
 ## Awards
 - Autohack2024 COSS사업단장상 수상 (2024.11)
@@ -91,22 +106,19 @@ I am a student and engineer interested in vulnerability analysis and information
 - KNU 2023년 SW 창업역량 강화 및 창업지원 프로그램 동상 (2023.7)
 - KT 강원고객본부 정보통신분야 우수학생 (2016.2)
 
----
-
 ## Papers
 - NLP기반 익스플로잇 코드 생성 자동화 시스템 설계 (2024.5)
 - 오디오 디지털 서명을 통한 보이스 피싱 방지 프레임워크 (2024.8)
 - 딥러닝을 활용한 딥페이크 탐지 연구 동향 (2024.8)
 - Preventing Voice Phishing Using Digital Signatures in Audio Streams (2024.12)
 
----
-
 ## Language Certifications
 - TOEIC 850 (2022.08)
-
----
 
 ## Toy Projects
 - Transformer를 이용한 개인용 ChatGPT개발
 - DBA(Dynamic Binary Analysis) 기술 관련 QEMU 성능향상 연구
 
+</div>
+
+</div>
