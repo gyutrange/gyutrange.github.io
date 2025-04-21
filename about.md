@@ -52,7 +52,7 @@ Kangwon National University (2025 Student President, Dept. of Cybersecurity)<br>
 ---
 
 ## About Me
-I am a student and engineer interested in vulnerability analysis and information security consulting. I am passionate about discovering new vulnerabilities and preventing their exploitation. Through these activities, I am dedicated to developing new security policies. As an engineer committed to finding vulnerabilities and defending against attacks, I have a keen interest in various attack and defense techniques, as well as secure coding, forensics, and AI-driven exploit automation. My goal is to become a leader in cybersecurity in Korea, creating and leading robust security policies.
+I am a student with a interest in vulnerability analysis and cybersecurity research. Currently affiliated with KNUS at Kangwon National University, I am passionate about discovering vulnerabilities and developing robust defense mechanisms. My interests span a wide range of areas including offensive and defensive security techniques, secure coding practices, digital forensics, and AI-driven exploit automation. My ultimate goal is to become a leader in the field of cybersecurity in Korea, contributing to the development and advancement of effective security policies.
 
 ---
 ## Experiences
@@ -127,3 +127,6 @@ I am a student and engineer interested in vulnerability analysis and information
     " | markdownify }}
   </div>
 </div>
+<br>
+<br>
+<br>
