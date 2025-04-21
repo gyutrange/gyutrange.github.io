@@ -81,7 +81,7 @@ I am a student and engineer interested in vulnerability analysis and information
 - **Bug report** - GoormIDE (2023.11)
 
 ### Engagements
-- **HSpace** - KNUS member (2025.2 ~)
+- **HSpace** - KNUS (2025.2 ~)
 - **KNUS** - KUCIS Affiliation (2024.9 ~)
 - **사이음(어르신 디지털 보안 교육 봉사 프로그램)** - (2025.4 ~)
     " | markdownify }}
