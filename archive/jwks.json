@@ -2,10 +2,11 @@
   "keys": [
     {
       "kty": "RSA",
-      "alg": "RS256",
-      "use": "sig",
       "kid": "server-key",
-      "n": "sSHHCdZntP0S0lW6D3RU0GTHjvcmC0P_xGshbDSl5RCj-79gsazYVlWaJASsFZkbYbTydAPgH4MbnMbIw8lEbkaH42R01CkBgxpiEHSGVWhZ3EKH68-bDmELFaIl6-nNwFj_NwpRYx0WGBJrTlVPe6FRWIt6Tp7tPWspcV-UXViIVBtEDaodkQXeXlC1AvhUjY3aE_wNUY03npyGNOS9cxfbnZZz5ecXZ6oUY2u_4zovgwa313bqU7yiVE5bbx93di43TZuPmlJjoMonqbkXPl8IIUaSL_In_samYjqQauvpF7GXTDKsULyl1hXYoxSbiPuGHI-AsIIALiqLNekV8w",
+      "use": "sig",
+      "alg": "RS256",
+      "n": "u01C79-Hm6Cz_79703XjSt_60Lb3sExbv7NgXnUPc8Bk6QZJTHmOSNE1yFY0ujX-otQdoI1BZKxuj1BgKZ1wYfjaNPT29P9Pz5r2o-29AOlX60bVFjaUHRaVK2Wn1V6kPPn41CoyjG1OVaPdesNhZa1EcdJRFNmhSdbC_ememabXtUwoLEp9wcoAel4XTSJuQWse_9hdmUOb6Bb6V7mNRZqB65U2FaJcSMKQ3i8kTM6p-r_yROxAUVHhGxIaUlxaQConKqNQGt7lRv-sP22BocRIz9QbzbbPySW5_fh-1L4ZPZJDag8jzylT-19j3x6QiPY17K0v2wnJgCu2EnaF1w",
       "e": "AQAB"
     }
   ]
+}
