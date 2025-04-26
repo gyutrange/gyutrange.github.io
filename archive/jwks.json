@@ -7,6 +7,7 @@
       "kid": "server-key",
       "n": "y9d03W8KMcpfewtW7P7Pgji3r2plprng83JwVV7I1Sxu60V36O9rhI5tfxhaF4GCkEXkufOMEv-JQ0wDbI66D2zyZTMiFtkDfW-m4KY2rCCs2AjopdDR_NwlDRIgCkUTgWOC1wg_EzgrR0sHD-Gl2nEefN_DZ4QM6W-hUinKWjL_z619kkywGeui8fxmEuu2RfRtMJjDYYVAq6uWz1Yzi_IZuEiJDz6LfCg1ES1v2AfYBdGu4nTI1Qre2x5xoJm9aEkWfL2DN2DAkkiTOZQtWNqdMTd0AfotgkA2XeIZHchXmKJbmawvVfaTV0nCFIZhQGmwdi54y8jIRYxrkJlPmQ",
       "e": "AQAB"
+      "use": "sig"
     }
   ]
 }
