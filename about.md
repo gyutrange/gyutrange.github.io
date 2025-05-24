@@ -82,8 +82,8 @@ I am a student with a interest in vulnerability analysis and cybersecurity resea
 
 ### Engagements
 - **HSpace** - KNUS (2025.2 ~)
-- **KNUS** - KUCIS Affiliation (2024.9 ~)
-- **사이음(어르신 디지털 보안 교육 봉사 프로그램)** - (2025.4 ~)
+- **KNUS** - KUCIS Affiliation (2025.5 ~)
+- **사이음** - 한국사회복지협의회(SSN) (2025.4 ~)
     " | markdownify }}
   </div>
 </div>
@@ -103,6 +103,7 @@ I am a student with a interest in vulnerability analysis and cybersecurity resea
 - **KT 강원고객본부 정보통신분야 우수학생** (2016.2)
 
 ### Papers
+- **경량 디바이스 기반 리플레이 공격 탐지를 위한 하이브리드 피처 셀렉션 기법** - TKIPS (2025.5)
 - **Preventing Voice Phishing Using Digital Signatures in Audio Streams** - Mobisec2024 (2024.12)
 - **딥러닝을 활용한 딥페이크 탐지 연구 동향** - KIISC Chungcheong 2024 (2024.8)
 - **NLP기반 익스플로잇 코드 생성 자동화 시스템 설계** - CISC-S'24 (2024.5)
@@ -112,12 +113,13 @@ I am a student with a interest in vulnerability analysis and cybersecurity resea
   <div class="column">
     {{ "
 ### CTFs
-- **GamjaHack 2025 운영** - (2025.2)
-- **Autohack2024 COSS사업단장상** - (2024.11)
-- **BISC 2024 장려상** - (2024.11)
-- **GCHD 2024 2nd** - (2024.11)
-- **KISA 스피어피싱 대응 CTF 동상** - (2023.8)
-- **KNU 미니 모의해킹 대회 4th** - (2023.8)
+- **[운영]강원권 중고교 CTF** - (2025.8)
+- **[운영]GamjaHack 2025** - (2025.2)
+- **[참가]Autohack2024 COSS사업단장상** - (2024.11)
+- **[참가]BISC 2024 장려상** - (2024.11)
+- **[참가]GCHD 2024 2nd** - (2024.11)
+- **[참가]KISA 스피어피싱 대응 CTF 동상** - (2023.8)
+- **[참가]KNU 미니 모의해킹 대회 4th** - (2023.8)
 
 ### Patent
 - **보이스피싱 방지를 위해 발신자 및 수신자 간 검증 절차를 수행하는 통화 시스템의 동작 방법** - 출원완료 (2024.12)
