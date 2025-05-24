@@ -18,7 +18,7 @@ permalink: /about/
 </style>
 
 <div style="display: flex; align-items: center;">
-  <h1 style="margin-right: 1rem;">JinGyujeong</h1>
+  <h1 style="margin-right: 1rem;">Gyujeong Jin</h1>
   <img src="{{ site.baseurl }}/images/IMG_0332.JPG" alt="Profile Picture" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;" />
 </div>
 
