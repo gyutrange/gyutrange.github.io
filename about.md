@@ -22,7 +22,7 @@ permalink: /about/
   <img src="{{ site.baseurl }}/images/IMG_0332.JPG" alt="Profile Picture" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;" />
 </div>
 
-**Whitehat Security**  
+**Security Researcher**  
 Kangwon National University (2025 Student President, Dept. of Cybersecurity)<br>
 **Email:** [wlsrbwjd643@naver.com](mailto:wlsrbwjd643@naver.com)
 
@@ -41,11 +41,12 @@ Kangwon National University (2025 Student President, Dept. of Cybersecurity)<br>
   </div>
   <div class="column">
     {{ "
-## Interests
+## Research Interests
 - Vulnerability Research
-- CTFs
-- Forensics
-- Audio Analysis
+- IoT Security
+- Usable Security
+- AI Security
+- Sensor Security
     " | markdownify }}
   </div>
 </div>
