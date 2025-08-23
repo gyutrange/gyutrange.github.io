@@ -115,6 +115,7 @@ I am a student with a interest in vulnerability analysis and cybersecurity resea
   <div class="column">
     {{ "
 ### CTFs
+- **[참가]KUCIS CTF 2025 2nd** - (2025.8)
 - **[운영]강원권 중고교 CTF** - (2025.8)
 - **[운영]GamjaHack 2025** - (2025.2)
 - **[참가]Autohack2024 COSS사업단장상** - (2024.11)
