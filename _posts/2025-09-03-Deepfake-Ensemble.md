@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "윤리적 해커 양성 5기 수료 후기"
+title: "주파수×공간×스펙트럼을 합친 소프트 보팅"
 date: 2025-01-05
 author: GiuNash
 tags: [Education]
@@ -15,8 +15,6 @@ pinned: true
     color: gray;
 }
 </style>
-
-# 주파수×공간×스펙트럼을 합친 소프트 보팅: 대회 데이터셋에서 AUC 1.000, Acc 96.7%
 
 > - **아이디어**: 서로 다른 관점을 쓰는 3계열 모델(FreqNet·GenConViT·CaFft)에 소프트 보팅(가중 평균) 적용
 > - **결과**: **Final Test** AUC **1.0000**, Accuracy **0.9667**, F1 **0.9789** / **FP=0**
