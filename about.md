@@ -79,6 +79,7 @@ I am a student with a interest in vulnerability analysis and cybersecurity resea
 - **CVE-2025-30158** - NamelessMC (2025.4)
 - **CVE-2025-30357** - NamelessMC (2025.4)
 - **CVE-2025-31118** - NamelessMC (2025.4)
+- **CVE-2025-10500** - Chrome Browser (2025.8)
 - **Public Institution** - (2024.5)
 - **Bug report** - GoormIDE (2023.11)
 
