@@ -106,6 +106,8 @@ I am a student with a interest in vulnerability analysis and cybersecurity resea
 - **KT 강원고객본부 정보통신분야 우수학생** (2016.2)
 
 ### Papers
+- **ARM기반 가상화 취약점분석 자동화에 관한 연구** - TKIPS (2025.12)
+- **Poster: Inferring On-Screen Keyboard Input via Gamepad-based Mouse Movement Traces** - ACM CCS Poster (2025.10)
 - **경량 디바이스 기반 리플레이 공격 탐지를 위한 하이브리드 피처 셀렉션 기법** - TKIPS (2025.5)
 - **Preventing Voice Phishing Using Digital Signatures in Audio Streams** - Mobisec2024 (2024.12)
 - **딥러닝을 활용한 딥페이크 탐지 연구 동향** - KIISC Chungcheong 2024 (2024.8)
@@ -116,6 +118,9 @@ I am a student with a interest in vulnerability analysis and cybersecurity resea
   <div class="column">
     {{ "
 ### CTFs
+- **[참가]Autohack2025 이타스코리아상** - (2025.11)
+- **[참가]SecureX Challenge 1st** - (2025.11)
+- **[참가]GCHD 2025 1st** - (2025.11)
 - **[참가]KUCIS CTF 2025 2nd** - (2025.8)
 - **[운영]강원권 중고교 CTF** - (2025.8)
 - **[운영]GamjaHack 2025** - (2025.2)
@@ -124,6 +129,9 @@ I am a student with a interest in vulnerability analysis and cybersecurity resea
 - **[참가]GCHD 2024 2nd** - (2024.11)
 - **[참가]KISA 스피어피싱 대응 CTF 동상** - (2023.8)
 - **[참가]KNU 미니 모의해킹 대회 4th** - (2023.8)
+
+### Contest
+- **글로벌 AI 인재양성 챌린지 대상** - (2025.9)
 
 ### Patent
 - **보이스피싱 방지를 위해 발신자 및 수신자 간 검증 절차를 수행하는 통화 시스템의 동작 방법** - 출원완료 (2024.12)
