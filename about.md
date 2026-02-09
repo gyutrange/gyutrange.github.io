@@ -107,6 +107,7 @@ I am a student with a interest in vulnerability analysis and cybersecurity resea
 
 ### Papers
 - **ARM기반 가상화 취약점분석 자동화에 관한 연구** - TKIPS (2025.12)
+- **macOS 커널 디버깅을 위한 심볼 이식 기법 연구** - KIPS (2025.11)
 - **Poster: Inferring On-Screen Keyboard Input via Gamepad-based Mouse Movement Traces** - ACM CCS Poster (2025.10)
 - **경량 디바이스 기반 리플레이 공격 탐지를 위한 하이브리드 피처 셀렉션 기법** - TKIPS (2025.5)
 - **Preventing Voice Phishing Using Digital Signatures in Audio Streams** - Mobisec2024 (2024.12)
