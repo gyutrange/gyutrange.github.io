@@ -62,7 +62,7 @@ I am a student with a interest in vulnerability analysis and cybersecurity resea
     {{ "
 
 ### Educations
-- **Best Of the Best 14th 취약점분석 트랙 교육생** (2024.7)
+- **Best Of the Best 14th 취약점분석 트랙 교육생** (2025.7)
 - **해외 IT기업(NSHC) 기술 연수** - COSS (2025.1)
 - **화이트햇스쿨 1기** - KITRI (2023.8 ~ 2024.3)
 - **윤리적해커양성 5기** - 국가정보원 및 사이버안보훈련센터 (2024.2 ~ 2024.8)
