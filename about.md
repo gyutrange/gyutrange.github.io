@@ -98,6 +98,7 @@ I am a student with a interest in vulnerability analysis and cybersecurity resea
     {{ "
     
 ### Academic
+- **Best Of the Best 14th 취약점분석 Best 10** (2026.2)
 - **윤리적해커양성 5기 최우수 교육생** (2024.8)
 - **화이트햇스쿨 1기 TOP 20** (2024.2)
 - **가명정보 처리과정 우수학생** (2023.11)
